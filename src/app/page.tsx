@@ -1,7 +1,9 @@
+import Navbar from "@/components/ui/navbar";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Hello world</h1>
+    <main className="bg-marine-blue w-screen h-screen">
+      <Navbar />
     </main>
   );
 }
