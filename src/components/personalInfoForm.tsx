@@ -4,10 +4,7 @@ export default function PersonalInfoForm() {
   return (
     <form id="personalInfo" className="py-4 mt-2">
       <div className="flex-col flex pb-3">
-        <label
-          className="text-marine-blue text-sm"
-          htmlFor="name"
-        >
+        <label className="text-marine-blue text-sm" htmlFor="name">
           Name
         </label>
         <input
@@ -19,10 +16,7 @@ export default function PersonalInfoForm() {
         />
       </div>
       <div className="flex-col flex pb-3">
-        <label
-          className="text-marine-blue text-sm"
-          htmlFor="email"
-        >
+        <label className="text-marine-blue text-sm" htmlFor="email">
           Email address
         </label>
         <input
@@ -34,10 +28,7 @@ export default function PersonalInfoForm() {
         />
       </div>
       <div className="flex-col flex pb-3">
-        <label
-          className="text-marine-blue text-sm"
-          htmlFor="phone"
-        >
+        <label className="text-marine-blue text-sm" htmlFor="phone">
           Phone Number
         </label>
         <input

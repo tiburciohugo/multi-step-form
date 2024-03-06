@@ -3,7 +3,7 @@ import PersonalInfoForm from "./personalInfoForm";
 
 export default function PersonalInfo() {
   return (
-    <div className="bg-white absolute w-[90%] rounded-lg mx-auto left-0 right-0 top-[17%] h-auto">
+    <div className="bg-white absolute w-[90%] rounded-xl mx-auto left-0 right-0 top-[12%] h-auto">
       <div className="px-6 py-4">
         <h1 className="text-2xl font-bold py-4 text-marine-blue">
           Personal info
