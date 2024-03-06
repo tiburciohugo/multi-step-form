@@ -1,8 +1,18 @@
+"use client";
 import React from "react";
 
 export default function PersonalInfoForm() {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const data = Object.fromEntries(formData.entries());
+    console.log(data);
+    window.alert(data);
+    window.alert("Form submitted");
+  };
+
   return (
-    <form id="personalInfo" className="py-4 mt-2">
+    <form onSubmit={handleSubmit} id="personalInfo" className="py-4">
       <div className="flex-col flex pb-3">
         <label className="text-marine-blue text-sm" htmlFor="name">
           Name
