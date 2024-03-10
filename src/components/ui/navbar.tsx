@@ -24,13 +24,13 @@ export default function Navbar() {
       <div className="absolute mx-auto flex w-full flex-1 items-start justify-center space-x-5 py-10 lg:w-auto lg:flex-col lg:space-x-0 lg:space-y-6 lg:px-6">
         <Link
           className="h-7 w-7 rounded-full text-center ring-1 ring-white transition delay-100 ease-in-out hover:bg-light-blue hover:text-marine-blue hover:ring-light-blue"
-          href="/1"
+          href="/"
         >
           1
         </Link>
         <Link
           className="h-7 w-7 rounded-full text-center ring-1 ring-white transition delay-100 ease-in-out hover:bg-light-blue hover:text-marine-blue hover:ring-light-blue"
-          href="/2"
+          href="/select-your-plan"
         >
           2
         </Link>
